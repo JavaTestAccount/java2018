@@ -1,0 +1,26 @@
+@startuml
+class java.lang.Math
+class java.util.InputMismatchException
+class java.util.Scanner
+class laboration1.Cirkel
+class laboration1.Figur
+class laboration1.Main
+class laboration1.Program
+class laboration1.Rektangel
+class laboration1.Triangel
+class laboration1_wo_poly.Cirkel
+class laboration1_wo_poly.Main
+class laboration1_wo_poly.Program
+class laboration1_wo_poly.Rektangel
+class laboration1_wo_poly.Triangel
+class projekt_1_inl.Projekt_1_inl
+laboration1.Cirkel ..> java.lang.Math
+laboration1.Cirkel --|> laboration1.Figur
+laboration1.Program ..> java.util.InputMismatchException
+laboration1.Program ..> java.util.Scanner
+laboration1.Rektangel --|> laboration1.Figur
+laboration1.Triangel --|> laboration1.Figur
+laboration1_wo_poly.Cirkel ..> java.lang.Math
+laboration1_wo_poly.Program ..> java.util.InputMismatchException
+laboration1_wo_poly.Program ..> java.util.Scanner
+@enduml
